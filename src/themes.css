@@ -1,0 +1,111 @@
+/* Theme changes only presentation. Signal values remain owned by the shared engine. */
+:root[data-theme=dark]{color-scheme:dark;--ink:#e0eaf5;--muted:#a1b2c6;--blue:#9bbfff;--green:#9bbfff;--high:#6ed5b6;--border:#34465d;--glass:#1d2c40bd;color:#e0eaf5;background:#111b29}
+:root[data-theme=dark] body{color:#e0eaf5;background:radial-gradient(ellipse at 89% 6%,#284d763f,transparent 45%),radial-gradient(ellipse at 24% 83%,#20494030,transparent 48%),#111b29;background-attachment:fixed}
+:root[data-theme=dark] h1,:root[data-theme=dark] h2,:root[data-theme=dark] h3{color:#dbe8f6}
+:root[data-theme=dark] p,:root[data-theme=dark] .muted{color:#a6b7cc}
+:root[data-theme=dark] .eyebrow,:root[data-theme=dark] .index-tag,:root[data-theme=dark] .nav-section-label{color:#8fa8c9}
+:root[data-theme=dark] .sidebar{background:#172338ce;border-color:#91b7ec19;box-shadow:3px 0 20px #00000012}
+:root[data-theme=dark] .brand{color:#e0eaf5}
+:root[data-theme=dark] .brand>span>span,:root[data-theme=dark] .hero-copy h1>span:not(.hero-learning-title){color:#9fbeef}
+:root[data-theme=dark] .brand small,:root[data-theme=dark] .about-link,:root[data-theme=dark] .about-link>span{color:#9aacbf}
+:root[data-theme=dark] .nav-item,:root[data-theme=dark] .nav-item svg,:root[data-theme=dark] .nav-expand{color:#a7b9d1}
+:root[data-theme=dark] .nav-group-heading.is-current{background:#243a57}
+:root[data-theme=dark] .nav-item.active,:root[data-theme=dark] .nav-item.active svg{color:#c0d8ff}
+:root[data-theme=dark] .nav-item:hover,:root[data-theme=dark] .nav-subitems a:hover{background:#253750}
+:root[data-theme=dark] .nav-subitems{border-color:#3b526e}
+:root[data-theme=dark] .nav-subitems a{color:#a8bdd7}
+:root[data-theme=dark] .nav-subitems a[aria-current=page]{background:#2a4162;color:#c1d8ff}
+:root[data-theme=dark] .topbar{background:#142137b0;border-color:#7b9eca19}
+:root[data-theme=dark] .breadcrumb,:root[data-theme=dark] .browser-status{color:#95abc3}
+:root[data-theme=dark] .breadcrumb strong,:root[data-theme=dark] .mobile-menu{color:#d1e0f3}
+:root[data-theme=dark] .theme-toggle{background:#22334b;border-color:#405573;color:#d2e2fa}
+:root[data-theme=dark] .panel,:root[data-theme=dark] .explore-card{background:linear-gradient(135deg,#24364ae0,#19283dbb);border-color:#d2e6ff20;box-shadow:0 8px 30px #0000001a,inset 0 1px 0 #d5e8ff08}
+:root[data-theme=dark] .panel-heading,:root[data-theme=dark] .stage-heading{background:#d7eaff03;border-color:#a6c3e51b;color:#adc3df}
+:root[data-theme=dark] .panel-heading .eyebrow{color:#8aa1bf}
+:root[data-theme=dark] .button.primary{background:linear-gradient(130deg,#3c70c4,#2c5eb0);border-color:#5d8adb;color:#fff}
+:root[data-theme=dark] .button.secondary,:root[data-theme=dark] .button.subtle{background:#263a54;border-color:#48607c;color:#bdd1ea}
+:root[data-theme=dark] .button.secondary:hover,:root[data-theme=dark] .button.subtle:hover{background:#304864;border-color:#7998bd}
+:root[data-theme=dark] .icon-button{background:#2b4059;color:#b4cbe6}
+:root[data-theme=dark] .icon-button:hover{background:#4a3540;color:#efb6aa}
+:root[data-theme=dark] .input-name,:root[data-theme=dark] .dock-label{color:#b6cae0}
+:root[data-theme=dark] .dock-label small,:root[data-theme=dark] .signal-label{color:#91a6bd}
+:root[data-theme=dark] .signal-label.high{color:#7bd7bc}
+:root[data-theme=dark] .binary-switch{background:#111f2e;border-color:#3a5168;box-shadow:inset 0 2px 4px #0005}
+:root[data-theme=dark] .binary-switch button{color:#97acc2}
+:root[data-theme=dark] .binary-switch button.selected{background:linear-gradient(#3c526a,#30445c);border-color:#5c748d;color:#e6f0fc;box-shadow:inset 0 1px 0 #ffffff16,0 2px 4px #0004}
+:root[data-theme=dark] .binary-switch button.selected.bit-1{background:linear-gradient(#64c8ab,#3c9f86);color:#0e2b23;border-color:#82d5bc;box-shadow:inset 0 1px 1px #d7fff39c,0 2px 6px #0003}
+:root[data-theme=dark] .dock-outputs,:root[data-theme=dark] .node-output{border-color:#42605c}
+:root[data-theme=dark] .output-name,:root[data-theme=dark] .led-control small{color:#9db8ac}
+:root[data-theme=dark] .led-control strong{color:#d0e6da}
+:root[data-theme=dark] .led{background:radial-gradient(circle at 35% 25%,#6c8567,#3c5438 70%);border-color:#30452b;box-shadow:inset 0 2px 3px #0004,0 1px 0 #a3c79533,0 0 0 2px #5c7650}
+:root[data-theme=dark] .led.on{background:radial-gradient(circle at 35% 25%,#e3ffd0,#a4dd79 65%,#79b44e);border-color:#84ab65;box-shadow:inset 0 1px 2px #fff9,0 0 0 2px #5c7750,0 0 22px #a5db7940}
+:root[data-theme=dark] .led.unknown{background:#9a824f;border-color:#675a38;box-shadow:none}
+:root[data-theme=dark] .circuit-paper{background-color:#12233372;background-image:radial-gradient(#a1bfca20 1px,transparent 1px)}
+:root[data-theme=dark] .gate-symbol{stroke:#adc6e3}
+:root[data-theme=dark] .gate-body{fill:#23394c}
+:root[data-theme=dark] .diagram-gate{stroke:#a5c0d7}
+:root[data-theme=dark] .diagram-gate .gate-body{fill:#203749}
+:root[data-theme=dark] .diagram-gate.is-high{stroke:#77d6b9}
+:root[data-theme=dark] .diagram-gate.is-high .gate-body{fill:#21483f}
+:root[data-theme=dark] .wire path{stroke:#536e82}
+:root[data-theme=dark] .wire.active path{stroke:#6dd2b3}
+:root[data-theme=dark] .wire .signal-pulse{stroke:#d2ffec}
+:root[data-theme=dark] .circuit-paper text{fill:#d0e1ed}
+:root[data-theme=dark] .circuit-paper .svg-muted,:root[data-theme=dark] .circuit-paper .svg-gate-label,:root[data-theme=dark] .circuit-paper .svg-metadata{fill:#a1b9ca}
+:root[data-theme=dark] .svg-terminal{fill:#263b4d;stroke:#7798b1}
+:root[data-theme=dark] .svg-terminal.is-high{fill:#26493e;stroke:#84d5b9}
+:root[data-theme=dark] .svg-led{fill:#304233;stroke:#627e61}
+:root[data-theme=dark] .svg-led.on{fill:#3b5d35;stroke:#91c383;filter:drop-shadow(0 0 8px #7dd47242)}
+:root[data-theme=dark] .svg-led-core{fill:#687e61;stroke:#8da284}
+:root[data-theme=dark] .svg-led-core.on{fill:#c0f59d;stroke:#d8f7ba}
+:root[data-theme=dark] .routing-diagram svg>path{fill:#253f50;stroke:#94b9ce}
+:root[data-theme=dark] .live-calculation{background:#24403955;border-color:#82b09b20;color:#a7d1bd}
+:root[data-theme=dark] .live-calculation strong,:root[data-theme=dark] .result-high{color:#83dcb6!important}
+:root[data-theme=dark] .desktop-reference-tabs,:root[data-theme=dark] .mobile-experiment-tabs{border-color:#415776;background:#17283b}
+:root[data-theme=dark] .desktop-reference-tabs button,:root[data-theme=dark] .mobile-experiment-tabs button{color:#a7bdd6}
+:root[data-theme=dark] .desktop-reference-tabs button[aria-selected=true],:root[data-theme=dark] .mobile-experiment-tabs button[aria-selected=true],:root[data-theme=dark] .mobile-experiment-tabs button[aria-pressed=true]{background:#314e70;color:#d4e7ff}
+:root[data-theme=dark] .truth-table th,:root[data-theme=dark] .comparison-table th{background:#21364c;color:#bbcee5}
+:root[data-theme=dark] .truth-table td,:root[data-theme=dark] .comparison-table td{border-color:#a3c0e019;color:#b5c7d9}
+:root[data-theme=dark] .truth-table .current-row{background:#254b3f;box-shadow:inset 3px 0 0 #84d7b7}
+:root[data-theme=dark] .truth-table .current-row td{color:#d0eedf}
+:root[data-theme=dark] .truth-table .table-high{background:#37624e;color:#b9f0cd}
+:root[data-theme=dark] .mini-table{border-color:#41607b}
+:root[data-theme=dark] .experiment-explanation code,:root[data-theme=dark] .equation,:root[data-theme=dark] .value-token{background:#243d58;border-color:#3b5675;color:#c5dcf5}
+:root[data-theme=dark] .expression-panel,:root[data-theme=dark] .equation-divider{border-color:#4a61763f}
+:root[data-theme=dark] .expression-panel code,:root[data-theme=dark] .comparison-table code{color:#bfd5ec}
+:root[data-theme=dark] select{background:#203750;border-color:#537191;color:#d3e1f3}
+:root[data-theme=dark] .pin-select,:root[data-theme=dark] .component-count,:root[data-theme=dark] .catalog-meta{color:#a8bfd8}
+:root[data-theme=dark] .playground-notice,:root[data-theme=dark] .feedback{background:#284738;border-color:#4c705b;color:#c1dfc9}
+:root[data-theme=dark] .feedback.incorrect{background:#423c2c;border-color:#7c6e4a;color:#e5d09b}
+:root[data-theme=dark] .hero-copy h1 .hero-learning-title{color:#d6e4f4}
+:root[data-theme=dark] .lab-top,:root[data-theme=dark] .hero-lab-controls{border-color:#a1c2e21c}
+:root[data-theme=dark] .lab-top>span:first-child,:root[data-theme=dark] .lab-name{color:#b4cce5}
+:root[data-theme=dark] .lab-name code,:root[data-theme=dark] .hero-result>span{color:#9bb3ca}
+:root[data-theme=dark] .hero-result{border-color:#90b6a82b}
+:root[data-theme=dark] .hero-result>strong{color:#c9dced}
+:root[data-theme=dark] .hero-result small{color:#9bb8bb}
+:root[data-theme=dark] .live-badge,:root[data-theme=dark] .lab-caption,:root[data-theme=dark] .hero-footnote{color:#94ccb6}
+:root[data-theme=dark] .stats-strip{background:#1e3146aa;border-color:#c8deff19;box-shadow:0 8px 25px #0001}
+:root[data-theme=dark] .stats-strip>div{border-color:#789fc227}
+:root[data-theme=dark] .stats-strip strong{color:#c5d7ec}
+:root[data-theme=dark] .stats-strip div>div>span{color:#a1b4ca}
+:root[data-theme=dark] .stat-icon{background:#304969;color:#aac9f2}
+:root[data-theme=dark] .stats-strip>div:nth-child(2) .stat-icon{background:#443d60;color:#c6b9e2}
+:root[data-theme=dark] .stats-strip>div:nth-child(3) .stat-icon{background:#4a4432;color:#d8bf84}
+:root[data-theme=dark] .stats-strip>div:nth-child(4) .stat-icon{background:#2d4d43;color:#a2d0b5}
+:root[data-theme=dark] .text-link,:root[data-theme=dark] .home-bottom button{color:#adcaf0}
+:root[data-theme=dark] .card-top,:root[data-theme=dark] .card-top>span{color:#aac1dc}
+:root[data-theme=dark] .home-bottom,:root[data-theme=dark] .footer,:root[data-theme=dark] .footer>span:last-child{color:#9badc3;border-color:#4d6a842b}
+:root[data-theme=dark] .small-mark{background:#345279;color:#c2ddff}
+:root[data-theme=dark] .lesson-tip,:root[data-theme=dark] .lesson-callout,:root[data-theme=dark] .learning-intro{background:#263d578f;border-color:#4c6b8b59}
+:root[data-theme=dark] .lesson summary>span:first-child,:root[data-theme=dark] .lesson-toggle{color:#a9c4e6}
+:root[data-theme=dark] .quiz-values code,:root[data-theme=dark] .topic-tags>span{background:#243f59;border-color:#466789;color:#c0d7ef}
+:root[data-theme=dark] .quiz-options button{background:linear-gradient(#355478,#294564);border-color:#567da4;color:#cee4ff;box-shadow:inset 0 1px 0 #fff2,0 5px 12px #0003}
+:root[data-theme=dark] .quiz-options button.chosen{background:#35634f;color:#d1f8de}
+:root[data-theme=dark] .application-visual{background:radial-gradient(ellipse,#27554340,transparent)}
+:root[data-theme=dark] .application-state,:root[data-theme=dark] .application-state strong,:root[data-theme=dark] .lock-display,:root[data-theme=dark] .lock-display code{color:#bdd8ed}
+:root[data-theme=dark] .application-state span,:root[data-theme=dark] .lock-display small,:root[data-theme=dark] .traffic-light{color:#a8c4d8}
+:root[data-theme=dark] .lock-display strong{color:#e4c494}
+:root[data-theme=dark] .lock-display.granted,:root[data-theme=dark] .lock-display.granted strong{color:#8ce0b8}
+:root[data-theme=dark] .traffic-light>span{border-color:#243e43;box-shadow:inset 0 2px 5px #0004,0 0 0 1px #537476;background:#42575b}
+@media(max-width:900px){.signal-dock .compact .binary-switch button{min-height:44px}.theme-toggle{min-height:44px}.mobile-experiment-tabs button{min-height:40px}}
